@@ -22,7 +22,9 @@ Gett, previously known as GetTaxi, is an Israeli-developed technology platform s
 * Morning: Driver shortages and high demand lead to delays.
 * Night: Limited driver availability results in unassigned orders.
 * ETA exceeds 8 minutes (80th percentile) during peak hours, reducing customer trust and leading to cancellations.
-  
+
+**My Presentation Link:** https://github.com/mi-jayesh/Insights_from_failed_orders/blob/main/ppt_Insights%20from%20Failed%20Orders.pdf   
+
 **Tools & Technologies Used**
 ---
 **SQL:** Data cleaning and exploratory analysis.  
