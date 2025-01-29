@@ -79,7 +79,7 @@ order by offer_id ;
 
 --- no values return means no duplicates
 
---- i will not check for duplicates in order_id in taxi_offers table because a single taxi booking order_id 
+--- will not check for duplicates in order_id in taxi_offers table because a single taxi booking order_id 
 --- can have multiple offers 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -196,6 +196,8 @@ SELECT DISTINCT EXTRACT(HOUR FROM TO_TIMESTAMP(order_time,'HH24:MI:SS')::time) A
 FROM taxi_orders
 order by 1;         ---- hours are in the 24-hour format  , no outliers or error
 
+SELECT * FROM taxi_orders ; 
+SELECT * FROM taxi_offers ;
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
